@@ -1,3 +1,149 @@
+body{
+  background-color:#020202;
+  color:#503B20;
+}
+
+h1{
+  display: flex;
+  font-size: min(max(1rem, 8vw), 24px);
+  color: #fff;
+}
+
+nav p{
+  font-size: min(max(1rem, 1.5vw), 12px);
+  text-decoration: underline;
+}
+
+.flex-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.myheader{
+  height: 15%;
+  padding-top:2%;
+}
+
+.big-pic{
+  width: 66%;
+  height: 33%;
+  margin:auto;
+  padding: 2%;
+}
+
+img{
+  margin:2%;
+}
+
+nav a{
+  font-size: min(max(1rem, 1.25vw), 18px);
+}
+
+.contactme{
+  font-size: min(max(1rem, 1.25vw), 18px); 
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 4vw;
+}
+
+.big-work-title{
+  font-size: min(max(1rem, 1.25vw), 18px);
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+h2{
+  font-size: min(max(1rem, 1.25vw), 20px);
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.row{
+  display: block;
+}
+
+.mgl-sm{
+  margin-left: 16.7%;
+}
+
+a{text-decoration: underline;
+  color: blue;
+}
+
+.wtitle{
+  font-size: min(max(1rem, 1.5vw), 20px);
+  transform: rotate(-90deg);
+  left: 0%;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.work-desc{
+  margin-left: 18%;
+  margin-right: 24%;
+}
+
+.res-logo{
+  display: flex;
+  justify-content: center;
+  height: 52vh;
+  width: 40vh;
+}
+
+img:hover{
+  opacity: 66%;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  color: salmon;
+}
+
+a:hover {
+  color: #503b31;
+}
+
+.myheadshot {
+  align-items: center;
+  justify-content: center;
+  width: .02vw;
+  max-width: 200px;
+  height: 20vh;
+  border-radius: 40px;
+  
+}
+
+.headshotspace {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

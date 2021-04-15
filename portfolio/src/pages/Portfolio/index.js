@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react"; //, { useState, useEffect } 
 // import API from "../../utils/API";
 import Header from "../../components/Header"
+import Footer from "../../components/Footer"
+import Project from "../../components/Project"
+import About from "../../components/About"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import Container from "../../components/Container";
@@ -12,7 +15,9 @@ function Portfolio(props) {
   return (
     <div>
     <Header/>
-
+    <About/>
+    <Project/>
+    <Footer/>
     </div>
   );
 }
