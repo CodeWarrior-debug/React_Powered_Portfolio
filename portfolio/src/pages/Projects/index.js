@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 class Projects extends Component {
    constructor(props) {
@@ -84,5 +86,18 @@ class Projects extends Component {
 
 }
 
-export default Projects; //
+function myProjects(props) {
+   return (
+     <div>
+     <Header/>
+     <Projects/>
+     <Footer/>
+     </div>
+   );
+ }
+ 
+ export default myProjects;
+
+
+
 
