@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import ProjectList from '';
 
-class Projects extends Component {
-   constructor(props) {
-      super(props) //since we are extending class Table so we have to use super in order to override Component class constructor
-      this.state = { //state is by default an object
-         projects: [
+export default function Projects() {
+    return (
+      <div className='Projects'>
+        <ProjectList
+          projects={[
             {   id: 1,
                 order: 1,
                 project_name: 'COVID Correlation Console',
@@ -56,33 +56,9 @@ class Projects extends Component {
                 live_demo_link: 'https://codewarrior-debug.github.io/Reactive_Employee_Directory/',
                 repository_link: 'https://github.com/CodeWarrior-debug/Reactive_Employee_Directory',
                 work_desc: 'This employee directory using react brings your employee lookups into a modern, responsive look.'},
-         ]
-      }
-   }
-
-   renderProjectsData(){
-    return this.state.projects.map((project, index) => {
-       const { id, order, project_name, react_img_import_name, img_alt_tag, live_demo_link, repository_link, work_desc} = project //destructuring
-       return (
-          <div key={id}>
-             <div>{id}</div>
-             <div>{order}</div>
-             <div>{project_name}</div>
-             <div>{react_img_import_name}</div>
-          </div>
-       )
-    })
- }
-
- render() {
-    return (
-             <div>
-                {this.renderProjectsData()}
-             </div>
-    )
- }
-
-}
-
-export default Projects; //
+          ]}
+        />
+      </div>
+    );
+  }
 
