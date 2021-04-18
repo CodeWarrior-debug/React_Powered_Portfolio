@@ -19,8 +19,8 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "cd portfolio && npm run build",
-    "install": "cd portfolio && npm install",
+    "build": "npm run build",
+    "install": "npm install",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
