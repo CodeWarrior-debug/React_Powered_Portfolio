@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 
-import covidIMG from "../../assets/img/covid-website-snip.png";  //TODO how am I going to import these? see below
-
-// covidIMG
-// pokeballerIMG
-// eeDbPopulatorIMG
-// generateTeamIMG
-// readmePreviewIMG
-// userDirectoryIMG
+import covidIMG from "../../assets/img/covid-website-snip.png";  
+import pokeballerIMG from "../../assets/img/PokeballerPic.png";  
+import eeDbPopulatorIMG from "../../assets/img/employee_DB_PopulatorVS_Code_Preview.png";
+import generateTeamIMG from "../../assets/img/Generated_Team_Webpage.png";
+import readmePreviewIMG from "../../assets/img/README_Preview.png";
+import userDirectoryIMG from "../../assets/img/Employee_Directory.gif";  
 
 class Projects2 extends Component {
   constructor(props) {
@@ -19,7 +17,7 @@ class Projects2 extends Component {
           id: 1,
           order: 1,
           project_name: "COVID Correlation Console",
-          react_img_import_name: "covidIMG",
+          react_img_import_name: covidIMG,  
           img_alt_tag: "COVID Website",
           live_demo_link:
             "https://codewarrior-debug.github.io/covid-correlation-console/",
@@ -32,7 +30,7 @@ class Projects2 extends Component {
           id: 2,
           order: 2,
           project_name: "PokeBaller: Card Inventory Organizer",
-          react_img_import_name: "pokeballerIMG",
+          react_img_import_name: pokeballerIMG,
           img_alt_tag: "PokeBaller",
           live_demo_link: "https://evening-oasis-15758.herokuapp.com/",
           repository_link: "https://github.com/CodeWarrior-debug/PokeBaller",
@@ -43,7 +41,7 @@ class Projects2 extends Component {
           id: 3,
           order: 3,
           project_name: "Employee Tracker",
-          react_img_import_name: "eeDbPopulatorIMG",
+          react_img_import_name: eeDbPopulatorIMG,
           img_alt_tag: "Employee Tracker",
           live_demo_link:
             "https://drive.google.com/file/d/1XBDCulLuOQ6JXPLJkubmtMyduErEvtP3/view?usp=sharing",
@@ -56,7 +54,7 @@ class Projects2 extends Component {
           id: 4,
           order: 4,
           project_name: "Team Generator",
-          react_img_import_name: "generateTeamIMG",
+          react_img_import_name: generateTeamIMG,
           img_alt_tag: "Generate Team Page",
           live_demo_link:
             "https://github.com/CodeWarrior-debug/hw10-team-profile-populator/blob/main/lib/img/Video%20Of%20Team%20Page%20Maker.mp4",
@@ -69,7 +67,7 @@ class Projects2 extends Component {
           id: 5,
           order: 5,
           project_name: "Automatic READMEs",
-          react_img_import_name: "readmePreviewIMG",
+          react_img_import_name: readmePreviewIMG,
           img_alt_tag: "README Preview",
           live_demo_link:
             "https://drive.google.com/file/d/1Awv5uqa4xtxKLN6U4VD8B3KrhOnEFsj0/view?usp=sharing",
@@ -82,7 +80,7 @@ class Projects2 extends Component {
           id: 6,
           order: 6,
           project_name: "React User Directory",
-          react_img_import_name: "userDirectoryIMG",
+          react_img_import_name: userDirectoryIMG,
           img_alt_tag: "User Directory",
           live_demo_link:
             "https://codewarrior-debug.github.io/Reactive_Employee_Directory/",
