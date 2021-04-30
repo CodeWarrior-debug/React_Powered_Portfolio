@@ -1,7 +1,7 @@
 import React from "react";
 import James_Pro_Headshot from "../../assets/img/jamesheadshot.png";
 
-function About(props) {
+function About() {
   return (
   // About James
       <div class="row m-3 d-flex justify-content-start"> 

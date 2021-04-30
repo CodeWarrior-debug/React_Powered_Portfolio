@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header(props) {
+function Header() {
   return (
     <div>
         <header class="container-fluid flex-right myheader">

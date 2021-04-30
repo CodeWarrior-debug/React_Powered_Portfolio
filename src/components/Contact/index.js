@@ -1,6 +1,6 @@
 import React from "react";
 
-function About(props) {
+function Contact() {
   return (
     <div class="row m-3 d-flex justify-content-start">
     <h2 id='contact'>Contact</h2> 
@@ -14,4 +14,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default Contact;
